@@ -1,0 +1,17 @@
+/* ボタンのスタイル */
+#openGameBtn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50; /* 初期色 */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* 背景色の変更をアニメーション */
+}
+
+/* ホバー時の色変化 */
+#openGameBtn:hover {
+  background-color: #45a049; /* ホバー時の色 */
+}

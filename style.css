@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap');
+/* ベーススタイル */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #f9f9f9;
+}
+
+/* ヘッダーとナビゲーションスタイル */
+header {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 0 0 30px 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+  font-weight: 400;
+}
+
+/* ホバースタイル */
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
